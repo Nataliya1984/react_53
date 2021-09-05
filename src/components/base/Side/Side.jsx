@@ -7,7 +7,11 @@ jss.setup(preset());
 const { classes } = jss.createStyleSheet(styles).attach();
 
 function Side() {
-  return <div className={classes.side}>Side</div>;
+  return (
+    <div className={classes.side}>
+      <div className={classes.side}>list_1</div>
+    </div>
+  );
 }
 
 export default Side;
