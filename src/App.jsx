@@ -18,6 +18,7 @@ class App extends React.PureComponent {
           <Header />
           <div
             className={`${classes.container} ${classes.container_horisontal}`}
+            // eslint-disable-next-line react/jsx-closing-bracket-location
           >
             <Side />
             <Main />
