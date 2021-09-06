@@ -1,7 +1,7 @@
 export default {
-    wrapp: {
-        with: '100%',
-        height: '100%',
-        background: '#FFFFE0',
-    },
+  wrapp: {
+    with: '100%',
+    height: '100%',
+    background: '#FFFFE0',
+  },
 };
